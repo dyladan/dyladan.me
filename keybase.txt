@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/dyladan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://dyladan.me
+  * I am dyladan (https://keybase.io/dyladan) on keybase.
+  * I have a public key with fingerprint 2A36 90C8 F5F0 E508 08A7  877E D774 AB25 D2FB 401B
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "2a3690c8f5f0e50808a7877ed774ab25d2fb401b",
+            "host": "keybase.io",
+            "key_id": "d774ab25d2fb401b",
+            "kid": "01015cb8472fe72b64fe99960beadfb4361b8850472df702057e72c06151d1790be90a",
+            "uid": "fe20f7bd1fae9f609d6b219f74ece400",
+            "username": "dyladan"
+        },
+        "service": {
+            "hostname": "dyladan.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1436982110,
+    "expire_in": 157680000,
+    "prev": "97e0858b06ac628a1fc6d589003b0c6fccd769e840e94cd95b8198aed6958fbb",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.20
+Comment: https://keybase.io/crypto
+
+yMIYAnicbZJbSBRRGIBH3S4uLBpSZNqFiV5CtjPjXM7ZKDIoa227gU9Z25yZM+uk
+zmw7o7WKdKHC7UrlQ6GmiHbTfKgEy4fUUsJKIjLqobKSoEAoM3uoqDNSD0Hn5fD/
+5/u/c87Pf8+XwniTHg9c8Q6kbGhNetC7spwpvFi3o4rFlhZnA1VsCZnadMOMkFg0
+ZpgOG2B5JVdCQIW6qAMiAgigIkNZJposCwrmRY3XsQA4zOawxZbtVlANVmziNyya
+o0HY0Gj2P3zJ1AHgACeqGAoyrxOZx5KgE4SQBDBRNMrmShyGUAT0XNNlwANRppgK
+JE7kNE5GlENAobryKZ1OeKDLWON0hSBdAkiTMM8hXRaISgQAXNAmMVMpI+6r4qWK
+pphsdQ5LkxWGStwOuB/5F/DTIIeNxizHUq1Smi92nGjALXPiUZfbQ3D4jyGMDVOj
+PaQFFSRmG5bJBjhKqo7hKjn6IwR5jgM5LNkbNWIkbLiEKEsQ0OVeQyqoEskEQBFi
+ICmqxEOF01VJEyECIBcDVdJVVZMlRKAACBJUDYkYcggqRJOQCHXsdtgmu02LuqnU
+USLUaRsRU3HKY4St7usp8jBJXmb6tGR3DBhvavrf4djfMZNJCBklXZu6I0bmxMHp
+19J2rd65ZXjo3GTbrdCxUOuL5wWB8fe587hXp9YEL9l+z4yjHVu32eOdl4fKX2Zm
+rPpZ6639mPckfqbdt+Lr9/vy2MO0UN7NfuGof6RXT/6+MNU5vSmxXJqoPOxvNxtK
+lni+LV59wNex6oJvZf7TmlkHPzFvtSYlJTwI+9uaa/Z9aSkgd65v7mxY+mHr3L5I
+/cbxrPpH+SOFo4y/cnLBpTuVw+dPtpz4Ncn/8FmJQ8GunuxgwTI0P3qjrrUx+d2z
+kbWz54ReF6W8WQw+n81OHbi9rsn+tig4yqw/cmiscWnW1fTseO3d7sHmY5604/6R
+spOJ7c3x3wPCJEY=
+=gGdh
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dyladan
+
+==================================================================
+
