@@ -16,6 +16,7 @@ To view the markdown for any file, just remove the "#" from the URL.
 
 
 - #### Always Be Coding
+  - [How Not to Shuffle](#posts/shuffle.md)
   - [8 Queens in Haskell](#posts/8-queens.md)
   - [Yubikey OTP Algorithm](#posts/yubikey.md)
 
@@ -39,3 +40,9 @@ To view the markdown for any file, just remove the "#" from the URL.
 - #### Playground
   - [Thoughts on bike frame geometry](#posts/bike-frames.md)
   - [Co-Opting KBX](#posts/kbx.md)
+
+
+- #### School
+  - [Car Calculator](#school/carCalculator.md)
+  - [Salary Calculator](#school/salaryCalculator.md)
+  - [Binary-Decimal Converter](#school/binaryToDecimal.md)
