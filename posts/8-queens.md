@@ -26,7 +26,7 @@ This had the advantage of not only cutting memory usage to 1/8 per board of what
 but also if each column is a field, we have now immediately excluded any boards where two queens
 are in the same column. If you have a lot of RAM, you can calculate every such board like this:
 
-```
+``` haskell
 boards = [(a,b,c,d,e,f,g,h) |
   a <- [1..8],
   b <- [x | x <- [1..8]],
