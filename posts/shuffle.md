@@ -1,12 +1,8 @@
 The Naive Shuffle Algorithm
 ===========================
 
-As programmers, we are often told never to write code that someone else has
-written for us.  Using a library function usually means gains in productivity,
-as well as some level of code quality guarantee. Usually this is enough, but
-sometimes we decide to go ahead and reimplement something anyways. The other
-day, someone asked me why this is a bad idea. This blog post is an attempt at
-an answer to this question.
+### Aside from saving time, why are programmers always told not to write code
+that has been written for us?
 
 Imagine you were writing an application in which you needed to shuffle a
 string. Instead of looking up the standard library function, you decided to
@@ -28,11 +24,12 @@ def naive(input):
     return "".join(input)
 ```
 
-This code works by iterating through the list and swapping the current element
-with another random element. If you are not familiar with shuffle algorithms it
-may be difficult to see where this code is broken. The break is so subtle that
-it may go years without being detected. First, let's see what happens when we
-run it.
+If you can already see the problem with this code then congratulations, you
+don't need to read the rest of this post.  This code works by iterating through
+the list and swapping the current element with another random element. If you
+are not familiar with shuffle algorithms it may be difficult to see where this
+code is broken. The break is so subtle that it may go years without being
+detected. First, let's see what happens when we run it.
 
 ```python
 # Create a counter object
