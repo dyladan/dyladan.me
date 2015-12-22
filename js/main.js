@@ -1,4 +1,5 @@
 window.onhashchange = function() {
+    timerStart=Date.now();
     render();
 }
 
@@ -24,13 +25,13 @@ function render() {
                         class: "feature",
                         src: "//www.gravatar.com/avatar/" + md5(config.email) + "?s=" + 200 * window.devicePixelRatio
                     }))
-                    .append(marked(data)); },
+                    .append(marked(data));console.log("Time until complete: ", Date.now()-timerStart); },
                 cache:false
             });
         } else {
             $.ajax({
                 url:hash,
-                success: function(data) { $("#content").html(marked(data)); },
+                success: function(data) { $("#content").html(marked(data));console.log("Time until complete: ", Date.now()-timerStart); },
                 cache: false
             });
         }
@@ -42,5 +43,6 @@ marked.setOptions({
         return hljs.highlightAuto(code).value;
     }
 });
+timerStart=Date.now();
 render();
 
