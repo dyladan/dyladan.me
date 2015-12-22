@@ -25,13 +25,13 @@ function render() {
                         class: "feature",
                         src: "//www.gravatar.com/avatar/" + md5(config.email) + "?s=" + 200 * window.devicePixelRatio
                     }))
-                    .append(marked(data));console.log("Time until complete: ", Date.now()-timerStart); },
+                    .append(marked(data));console.log("index: ", Date.now()-timerStart); },
                 cache:false
             });
         } else {
             $.ajax({
                 url:hash,
-                success: function(data) { $("#content").html(marked(data));console.log("Time until complete: ", Date.now()-timerStart); },
+                success: function(data) { $("#content").html(marked(data));console.log(hash, ": ", Date.now()-timerStart); },
                 cache: false
             });
         }
