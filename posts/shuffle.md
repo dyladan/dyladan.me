@@ -1,8 +1,7 @@
 The Naive Shuffle Algorithm
 ===========================
 
-### Aside from saving time, why are programmers always told not to write code
-that has been written for us?
+### Aside from saving time, why are programmers always told not to write code that has been written for us?
 
 Imagine you were writing an application in which you needed to shuffle a
 string. Instead of looking up the standard library function, you decided to
@@ -58,7 +57,7 @@ possible choices for which element to swap it with (including itself).  For the
 simple example `"123"` where `n=3`, there are `3^3 = 27` possible code paths.
 With `3! = 6` different possible permutations of the array, it is clear that
 each of the 6 possible shuffles cannot be equally represented by 27 code paths,
-as 3 does not evenly divide 27.
+as 6 does not evenly divide 27.
 
 The possible permutations are as follows
 
