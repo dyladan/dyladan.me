@@ -28,25 +28,10 @@ don't need to read the rest of this post.  This code works by iterating through
 the list and swapping the current element with another random element. If you
 are not familiar with shuffle algorithms it may be difficult to see where this
 code is broken. The break is so subtle that it may go years without being
-detected. First, let's see what happens when we run it.
+detected. First, let's see what happens when we run it 10000 times.
 
-```python
-# Create a counter object
-n_counter = {
-    "123": 0,
-    "132": 0,
-    "213": 0,
-    "231": 0,
-    "312": 0,
-    "321": 0,
-}
 
-# Shuffle 10000 times for a good statistical sample
-for _ in range(10000):
-    n_counter[naive("123")] += 1
-```
-
-![png](images/output_3_0.png)
+![png](images/unfair_shuffle.png)
 
 Looking at this image, it should be clear that the shuffle function is unfairly
 favoring some permutations over others. To figure out why, the easiest
@@ -130,24 +115,8 @@ Intuitively, it would seem that this algorithm is less random. Wouldn't it be
 worse to limit yourself to only swapping with later elements? Let's test this
 algorithm the same way we tested our naive algorithm.
 
-```python
-# Create a counter object
-fy_counter = {
-    "123": 0,
-    "132": 0,
-    "213": 0,
-    "231": 0,
-    "312": 0,
-    "321": 0,
-}
 
-# Shuffle 10000 times
-for _ in range(10000):
-    fy_counter[fisheryates("123")] += 1
-```
-
-
-![png](images/output_7_0.png)
+![png](images/fair_shuffle.png)
 
 
 As seen in the example above, the output of this function is much more fair.
