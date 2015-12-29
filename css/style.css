@@ -24,6 +24,10 @@ nav > .container {
   max-width: 720px;
 }
 
+#content img {
+  max-width: 100%;
+}
+
 #content h1, #home h2 {
   text-align: center;
   max-width: 500px;
